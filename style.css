@@ -49,7 +49,7 @@ ul {
 
 .button {
   display: inline-block;
-  background-color: #6a8dff;   /* pastel blue */
+  background-color: #be7836;   /* pastel brown */
   color: white;
   padding: 10px 15px;
   border-radius: 10px;
@@ -58,7 +58,7 @@ ul {
 }
 
 .button:hover {
-  background-color: #be7836;  /* pastel brown */
+  background-color: #be722b;  /* pastel darker brown */
 }
 
 footer {
