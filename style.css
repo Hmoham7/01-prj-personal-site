@@ -2,7 +2,7 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f6f7ff;     /* light pastel */
-  color: #1e2542;
+  color: #960e0e;
   margin: 0;
 }
 
@@ -16,12 +16,12 @@ header {
 nav a {
   margin: 0 10px;
   text-decoration: none;
-  color: #5b63a0;
+  color: hsl(17, 76%, 45%);
   font-weight: bold;
 }
 
 nav a:hover {
-  color: #6a8dff;
+  color: hsl(17, 76%, 55%);
 }
 
 main {
@@ -34,7 +34,7 @@ section {
   margin: 20px auto;
   max-width: 700px;
   border-radius: 12px;
-  border: 1px solid #d9ddff;
+  border: 1px solid #f0a823;
 }
 
 img {
@@ -58,11 +58,11 @@ ul {
 }
 
 .button:hover {
-  background-color: #b48cff;  /* pastel purple */
+  background-color: #be7836;  /* pastel brown */
 }
 
 footer {
   text-align: center;
   padding: 15px;
-  color: #5b63a0;
+  color: #be7836;
 }
