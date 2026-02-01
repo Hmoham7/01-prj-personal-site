@@ -1,69 +1,65 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>My Personal Site</title>
+  <!-- Link to Google Fonts for a cute, inviting font -->
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
- <header>
-  <h2>My Portfolio</h2>
+  <!-- Combined header and hero section for a welcoming intro -->
+  <header class="hero">
+    <h1 class="site-title">My Portfolio</h1>
+    <nav class="center-nav">
+      <a href="#home">Home</a>
+      <a href="#About-me">Bio</a>
+      <a href="#skills">Skills</a>
+      <a href="#linkedin">LinkedIn</a>
+    </nav>
+    <div class="hero-content">
+      <h2>Welcome to Hasnaa's Space</h2>
+      <p>Scroll below to view more about my interests and skills!</p>
+    </div>
+  </header>
 
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#About me">Bio</a>
-    <a href="#skills">Skills</a>
-    <a href="#linkedin">LinkedIn</a>
-  </nav>
-</header>
+  <main>
+    <!-- Bio Section -->
+    <section id="About-me" class="bio-section">
+      <h2>About Me</h2>
+      <!-- Profile picture styled as a circle in CSS -->
+      <img class="profile-pic" src="IMG_1971.jpeg" alt="Profile picture" width="180">
+      <p>
+        I’m a senior majoring in civil engineering. I have a passion for learning new skills especially in web development and design. I enjoy bringing projects to life whether on paper or on a computer interface :)
+      </p>
+    </section>
 
-<main>
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML basics</li>
+        <li>CSS basics</li>
+        <li>Responsive design (beginner)</li>
+        <li>Problem solving</li>
+        <li>Teamwork</li>
+      </ul>
+    </section>
 
-  <section id="home">
-    <h1>Welcome to Hasnaa's Space</h1>
-    <p>
-      Scroll below to view more about my interests and skills!
-    </p>
-  </section>
+    <!-- LinkedIn Section -->
+    <section id="linkedin" class="linkedin-section">
+      <h2>Reach Out</h2>
+      <p>You can connect with me on LinkedIn:</p>
+      <a class="button" href="https://www.linkedin.com/in/hasnaa-mohamed-3b9726325" target="_blank">
+        Visit My LinkedIn
+      </a>
+    </section>
+  </main>
 
-  <section id="About me">
-    <h2>About me</h2>
-
-    <img src="IMG_1971.jpeg" alt="Profile picture" width="180">
-
-    <p>
-      I’m a senior majoring in civil engineering. I have a passion for learning new skills especially in web development and design. I enjoy bringing projects to life whether on paper or on a computer interface:)
-    </p>
-  </section>
-
-  <section id="skills">
-    <h2>Skills</h2>
-
-    <ul>
-      <li>HTML basics</li>
-      <li>CSS basics</li>
-      <li>Responsive design (beginner)</li>
-      <li>Problem solving</li>
-      <li>Teamwork</li>
-    </ul>
-  </section>
-
-  <section id="linkedin">
-    <h2>Reach Out</h2>
-    <p>You can connect with me on LinkedIn:</p>
-
-    <a class="button" href="https://www.linkedin.com/in/hasnaa-mohamed-3b9726325" target="_blank">
-      Visit My LinkedIn
-    </a>
-  </section>
-
-</main>
-
-<footer>
-  <p>© 2026 My Portfolio</p>
-</footer>
-
+  <footer>
+    <p>© 2026 My Portfolio</p>
+  </footer>
 </body>
 </html>
 
